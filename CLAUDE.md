@@ -192,6 +192,19 @@ When modifying PHP files, ensure proper docblock:
 
 Preserve existing authors/copyrights when editing files.
 
+## Disabled Upstream Workflows
+
+The upstream OpenEMR GitHub Actions workflows have been disabled in this fork by
+renaming `.github/workflows/` to `.github/workflows.disabled/`. This prevents
+CI workflows (tests, linting, Docker builds, etc.) from running automatically
+on pushes and PRs in the fork.
+
+To re-enable all workflows, rename the directory back:
+
+```bash
+git mv .github/workflows.disabled .github/workflows
+```
+
 ## Common Gotchas
 
 - Multiple template engines: check extension (.twig, .html, .php)

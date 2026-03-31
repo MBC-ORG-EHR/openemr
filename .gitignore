@@ -35,3 +35,18 @@ coverage/js-unit
 
 # phpstan
 tmp-phpstan/*
+
+# MBC custom modules and files (deployed from MBC-ORG-EHR/frontoffice repo)
+Documentation/help_files/mbc_*
+interface/main/tabs/menu/menus/standard.json.backup
+interface/modules/custom_modules/activity_dashboard/
+interface/modules/custom_modules/appointment_queue/
+interface/modules/custom_modules/clinical_documentation/
+interface/modules/custom_modules/dashboard_context/
+interface/modules/custom_modules/help_files/
+interface/modules/custom_modules/intake_coordinator/
+interface/modules/custom_modules/oe-module-mbc-scheduler/
+interface/modules/custom_modules/patient_search/
+interface/modules/custom_modules/patient_timeline/
+interface/modules/custom_modules/scheduler/
+interface/modules/custom_modules/shared/

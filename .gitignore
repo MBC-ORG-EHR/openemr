@@ -41,6 +41,7 @@ Documentation/help_files/mbc_*
 interface/main/tabs/menu/menus/standard.json.backup
 interface/modules/custom_modules/activity_dashboard/
 interface/modules/custom_modules/appointment_queue/
+interface/modules/custom_modules/calendar_facility_check/
 interface/modules/custom_modules/clinical_documentation/
 interface/modules/custom_modules/dashboard_context/
 interface/modules/custom_modules/help_files/
@@ -50,3 +51,4 @@ interface/modules/custom_modules/patient_search/
 interface/modules/custom_modules/patient_timeline/
 interface/modules/custom_modules/scheduler/
 interface/modules/custom_modules/shared/
+interface/modules/custom_modules/user_admin_tweaks/

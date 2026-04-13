@@ -52,3 +52,4 @@ interface/modules/custom_modules/patient_timeline/
 interface/modules/custom_modules/scheduler/
 interface/modules/custom_modules/shared/
 interface/modules/custom_modules/user_admin_tweaks/
+interface/modules/custom_modules/entra_auth/

@@ -44,22 +44,20 @@
     ]
   },
   {
-        "label": "Recalls",
-        "menu_id": "pfb0",
-        "target": "rcb",
-        "url": "/interface/main/messages/messages.php?go=Recalls",
-        "children": [],
-        "requirement": 0,
-        "acl_req": [
-          "patients",
-          "appt"
-        ],
+    "label": "Recalls",
+    "menu_id": "pfb0",
+    "target": "rcb",
+    "url": "/interface/main/messages/messages.php?go=Recalls",
+    "children": [],
+    "requirement": 0,
+    "acl_req": [
+      "patients",
+      "appt"
+    ],
     "global_req_strict": [
       "!disable_rcb"
     ]
-
-   },
-
+  },
   {
     "label": "Messages",
     "menu_id": "msg0",
@@ -197,8 +195,24 @@
         "icon": "fa-caret-right",
         "children": [],
         "requirement": 0
+      },
+      {
+        "label": "Edit Intake",
+        "menu_id": "mbc_edit_intake",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/intake_coordinator/public/intake_form.php",
+        "children": [],
+        "requirement": 1
       }
     ],
+    "requirement": 0
+  },
+  {
+    "label": "Intake Coordinator",
+    "menu_id": "mbc_intake",
+    "target": "msc",
+    "url": "/interface/modules/custom_modules/intake_coordinator/public/intake_form.php?patient_id=0",
+    "children": [],
     "requirement": 0
   },
   {
@@ -477,16 +491,16 @@
         "children": [],
         "requirement": 0,
         "acl_req": [
-            [
-                "acct",
-                "eob",
-                "write"
-            ],
-            [
-                "acct",
-                "bill",
-                "write"
-            ]
+          [
+            "acct",
+            "eob",
+            "write"
+          ],
+          [
+            "acct",
+            "bill",
+            "write"
+          ]
         ],
         "global_req": "auto_sftp_claims_to_x12_partner"
       }
@@ -513,9 +527,9 @@
     ],
     "requirement": 0,
     "acl_req": [
-    "menus",
-    "modle"
-  ]
+      "menus",
+      "modle"
+    ]
   },
   {
     "label": "Inventory",
@@ -536,23 +550,56 @@
         "url": "/interface/reports/destroyed_drugs_report.php",
         "children": [],
         "requirement": 0,
-          "acl_req": [
-            ["admin", "drugs"],
-            ["inventory", "reporting"]
+        "acl_req": [
+          [
+            "admin",
+            "drugs"
+          ],
+          [
+            "inventory",
+            "reporting"
           ]
+        ]
       }
     ],
     "requirement": 0,
     "acl_req": [
-      ["admin", "drugs"],
-      ["inventory", "lots"],
-      ["inventory", "purchases"],
-      ["inventory", "transfers"],
-      ["inventory", "adjustments"],
-      ["inventory", "consumption"],
-      ["inventory", "destruction"],
-      ["inventory", "sales"],
-      ["inventory", "reporting"]
+      [
+        "admin",
+        "drugs"
+      ],
+      [
+        "inventory",
+        "lots"
+      ],
+      [
+        "inventory",
+        "purchases"
+      ],
+      [
+        "inventory",
+        "transfers"
+      ],
+      [
+        "inventory",
+        "adjustments"
+      ],
+      [
+        "inventory",
+        "consumption"
+      ],
+      [
+        "inventory",
+        "destruction"
+      ],
+      [
+        "inventory",
+        "sales"
+      ],
+      [
+        "inventory",
+        "reporting"
+      ]
     ],
     "global_req": "inhouse_pharmacy"
   },
@@ -1741,8 +1788,14 @@
         ],
         "requirement": 0,
         "acl_req": [
-          ["admin", "drugs"],
-          ["inventory", "reporting"]
+          [
+            "admin",
+            "drugs"
+          ],
+          [
+            "inventory",
+            "reporting"
+          ]
         ],
         "global_req": "inhouse_pharmacy"
       },
@@ -2000,10 +2053,10 @@
         "children": [],
         "requirement": 0,
         "acl_req": [
-            "patients",
-            "docs"
+          "patients",
+          "docs"
         ]
-        },
+      },
       {
         "label": "Patient Education",
         "menu_id": "ped0",
@@ -2139,6 +2192,24 @@
           }
         ],
         "requirement": 0
+      },
+      {
+        "label": "Activity Dashboard",
+        "menu_id": "mbc_activity",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/activity_dashboard/public/index.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-dashboard"
+      },
+      {
+        "label": "Referral Sources",
+        "menu_id": "mbc_referral_sources",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/intake_coordinator/public/referral_admin.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-address-book"
       }
     ],
     "requirement": 0

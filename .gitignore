@@ -40,5 +40,6 @@ tmp-phpstan/*
 /interface/modules/custom_modules/dashboard_context/
 /interface/modules/custom_modules/intake_coordinator/
 /interface/modules/custom_modules/patient_timeline/
+/interface/modules/custom_modules/reports/
 /interface/modules/custom_modules/shared/
 # END AI-GENERATED: GitHub Copilot-added ignore rules for frontoffice-deployed artifacts

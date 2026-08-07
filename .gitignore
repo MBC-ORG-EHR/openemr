@@ -35,11 +35,17 @@ tmp-phpstan/*
 # BEGIN AI-GENERATED: GitHub Copilot-added ignore rules for frontoffice-deployed artifacts
 /Documentation/help_files/mbc_*_help.php
 /interface/modules/custom_modules/activity_dashboard/
+/interface/modules/custom_modules/ambient_ai_scribe/
 /interface/modules/custom_modules/appointment_queue/
+/interface/modules/custom_modules/calendar_facility_check/
 /interface/modules/custom_modules/clinical_documentation/
 /interface/modules/custom_modules/dashboard_context/
+/interface/modules/custom_modules/document_repository/
 /interface/modules/custom_modules/intake_coordinator/
+/interface/modules/custom_modules/mbc_calendar_enhancements/
+/interface/modules/custom_modules/patient_search/
 /interface/modules/custom_modules/patient_timeline/
 /interface/modules/custom_modules/reports/
 /interface/modules/custom_modules/shared/
+/interface/modules/custom_modules/user_admin_tweaks/
 # END AI-GENERATED: GitHub Copilot-added ignore rules for frontoffice-deployed artifacts

@@ -2210,6 +2210,51 @@
         "children": [],
         "requirement": 0,
         "icon": "fa fa-address-book"
+      },
+      {
+        "label": "Manage Custom Tags",
+        "menu_id": "mbc_manage_tags",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/intake_coordinator/public/tag_admin.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-tags"
+      },
+      {
+        "label": "MBC User Guide",
+        "menu_id": "mbc_user_guide",
+        "target": "msc",
+        "url": "/Documentation/help_files/mbc_getting_started_help.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-book"
+      },
+      {
+        "label": "Ambient AI Scribe (Demo)",
+        "menu_id": "mbc_ambient_ai_scribe",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/ambient_ai_scribe/public/index.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-microphone"
+      },
+      {
+        "label": "Template Studio",
+        "menu_id": "mbc_template_studio",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/clinical_documentation/public/studio.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-file-alt"
+      },
+      {
+        "label": "Reports: Daily Appointments",
+        "menu_id": "mbc_report_daily_appts",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/reports/public/daily-appointments.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-calendar-day"
       }
     ],
     "requirement": 0

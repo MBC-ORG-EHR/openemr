@@ -200,7 +200,7 @@
         "label": "Edit Intake",
         "menu_id": "mbc_edit_intake",
         "target": "msc",
-        "url": "/interface/modules/custom_modules/intake_coordinator/public/intake_form.php",
+        "url": "/interface/modules/custom_modules/intake_coordinator/public/intake_form.php?context=patient",
         "children": [],
         "requirement": 1
       }
@@ -2255,6 +2255,33 @@
         "children": [],
         "requirement": 0,
         "icon": "fa fa-calendar-day"
+      },
+      {
+        "label": "Reports: Off-Facility Appointments",
+        "menu_id": "mbc_report_off_facility",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/reports/public/off-facility-appointments.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-eye-slash"
+      },
+      {
+        "label": "Reports: SMS Reminder Log",
+        "menu_id": "mbc_report_sms_log",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/reports/public/sms-reminder-log.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-comment"
+      },
+      {
+        "label": "Reports: Patient Action History",
+        "menu_id": "mbc_report_patient_action_history",
+        "target": "msc",
+        "url": "/interface/modules/custom_modules/reports/public/patient-action-history.php",
+        "children": [],
+        "requirement": 0,
+        "icon": "fa fa-history"
       }
     ],
     "requirement": 0

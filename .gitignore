@@ -42,6 +42,7 @@ tmp-phpstan/*
 /interface/modules/custom_modules/dashboard_context/
 /interface/modules/custom_modules/document_repository/
 /interface/modules/custom_modules/intake_coordinator/
+/interface/modules/custom_modules/list_editor_tweaks/
 /interface/modules/custom_modules/mbc_calendar_enhancements/
 /interface/modules/custom_modules/patient_search/
 /interface/modules/custom_modules/patient_timeline/

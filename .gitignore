@@ -50,4 +50,5 @@ tmp-phpstan/*
 /interface/modules/custom_modules/shared/
 /interface/modules/custom_modules/sms_reminders/
 /interface/modules/custom_modules/user_admin_tweaks/
+/interface/modules/custom_modules/VERSION.txt
 # END AI-GENERATED: GitHub Copilot-added ignore rules for frontoffice-deployed artifacts
